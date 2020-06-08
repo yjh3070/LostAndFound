@@ -1,0 +1,91 @@
+/* 메인 씨에쓰에쓰 */
+@font-face{
+    font-family: 'appleSDGothic';
+    src: url('../fonts/AppleSDGothicNeoUL.ttf');
+}
+
+body{
+    height: 100vh;
+    background-image: url(../images/main_background.png);
+    background-repeat: no-repeat; /* 반복 안함 */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lost_n_found{
+    height: 250px;
+    margin-left: 250px;
+}
+
+.btn{
+    display: block;
+    font-family: 'appleSDGothic';
+}
+
+.btndiv{
+    margin-left: 110px;
+}
+
+.btndiv.bottom{
+    margin-top: 50px;
+}
+
+.btndiv .btn{
+    font-size: 30px !important;
+    width: 400px;
+    height: 80px;
+    line-height: 65px;
+}
+
+a .btn{
+    width: 200px;
+    font-size: 20px !important;
+}
+
+.gsm.fixed-bottom{
+    left: auto;
+    padding: 20px;
+    width: 130px !important;
+}
+
+.fixed-bottom{
+    font-family: 'appleSDGothic';
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px !important;
+}
+
+a:link {
+    text-decoration: none !important;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: rgb(216, 216, 216) !important;
+}
+
+a:active{
+    text-decoration: none !important;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none !important;
+    color: white;
+}
+
+.alertdiv{
+    font-size: 16px !important;
+    width: 400px !important;
+    margin-left: 230px;
+}
+
+.alert{
+    margin-bottom: 5px !important;
+}
+

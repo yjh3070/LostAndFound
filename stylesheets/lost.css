@@ -1,0 +1,14 @@
+.lost {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.found > a {
+    color: #989898;
+}
+
+
+.type-place{
+    display: flex;
+    justify-content: space-between;
+}

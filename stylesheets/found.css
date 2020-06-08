@@ -1,0 +1,48 @@
+.found {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+
+.lost > a {
+    color: #989898;
+}
+
+.classification>.row>.col-4{
+    font-weight: bold
+}
+.classification>.row>.col-4>.row, .classification>.row>.col>.row{
+    margin-bottom: 10px;
+}
+
+
+/*모달*/
+.type-place, .ham-password{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-input-password{
+    width: 50%;
+}
+.modal-input-ham{
+    border-radius: 3px;
+    height: 33px;
+}
+
+.ham{
+    font-weight: 500;
+}
+
+.content-change-btn{
+    border: 1px solid #3fe4e2;
+    background: #3fe4e2;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.content-change-btn:hover{
+    background: #fff;
+    color: #3fe4e2;
+
+}
